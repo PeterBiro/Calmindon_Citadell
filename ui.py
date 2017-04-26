@@ -1,3 +1,38 @@
+def print_menu(title, list_options, exit_message):
+    """
+    Generates a menu with options.
+    @title: string - title of the menu
+    @list_options: list of strings - the options in the menu
+    @exit_message: string - the last option with (0) (example: "Back to main menu")
+    """
+    print("\n", title, "\n")
+    for index, option in enumerate(list_options):
+        print(" ({0}) {1}".format(index+1, option))
+    print(" (0)", exit_message)
+
+
+# This function gets a list of inputs from the user by the terminal
+#
+# @list_labels: list of strings - the labels of the inputs
+# @title: string - title of the "input section"
+# @inputs: list of string - list of the received values from the user
+def get_inputs(list_labels, title):
+    inputs = []
+    print(title)
+    for label in list_labels:
+        print(label, end="")
+        answer = input(": ")
+        inputs.append(answer)
+    return inputs
+
+
+# This function needs to print an error message. (example: Error: @message)
+#
+# @message: string - the error message
+def print_error_message(message):
+    print("Error: ", message)
+
+
 def get_col_width(table, titles):
     """
     Searches for max col widths in table and titles and returns them in a list.
@@ -68,6 +103,6 @@ def ask_tags():
 def main():
     pass
 
-    
+
 if __name__ == '__main__':
     main()

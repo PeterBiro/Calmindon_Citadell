@@ -1,5 +1,3 @@
-import data_manager
-import ui
 import collections  # for Counter in count_tags_group_by_name()
 
 
@@ -27,15 +25,7 @@ def filter_table(table, filter_tags):
 
 
 def main():
-    table, titles = data_manager.get_table_from_file("tags.csv")
-    ui.print_table(table, titles)
-    nr_of_tags = count_tags_group_by_name(table)
-    ui.print_table(nr_of_tags, ["tag", "#"])
-    filter_tags = ui.ask_tags()
-    ui.print_table(filter_table(table, filter_tags), titles)
-
-
-
+    pass
 
 if __name__ == '__main__':
     main()

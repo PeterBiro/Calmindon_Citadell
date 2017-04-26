@@ -5,7 +5,7 @@ def generate_random_table(rows):
     TAGS = {
             "matek", "fizika", "geometria", "algebra", "analízis", "szöveges feladat",
             "teszt", "2016", "2017", "érettségi", "könnyű", "nehéz", "húbaz+", "KöMaL",
-            "kinetika", "mechanika", "hőtan", "elektromágnesség", "optika", "7. osztály",
+            "kinematika", "mechanika", "hőtan", "elektromágnesség", "optika", "7. osztály",
             "8. osztály", "9-10. osztály", "12. osztály", "egyetem", "fejtörő", "Pithagorasz-tétel",
             "Euler-egyenes", "Euler-tétel", "Euler-féle poliédertétel", "Euler-Fermat tétel",
             "Königsberg hídjai", "lovagok és lókötők", "Newton-törvények", "Kepler-törvények",
