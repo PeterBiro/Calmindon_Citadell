@@ -16,11 +16,27 @@ def count_tags_group_by_name(table):
     return nr_of_tags
 
 
+def filter_table(table, filter_tags):
+    """
+    Filters a table by given tags.
+    Args:
+        - table: list of lists
+        - filter_tags: list of strings
+    """
+    result = list(filter(lambda x: set(filter_tags) - set(x[1].split(", ")) == set(), table))
+    return result
+
+
 def main():
     table, titles = data_manager.get_table_from_file("tags.csv")
     ui.print_table(table, titles)
     nr_of_tags = count_tags_group_by_name(table)
     ui.print_table(nr_of_tags, ["tag", "#"])
+    filter_tags = ui.ask_tags()
+    print(filter_table(table, filter_tags))
+    ui.print_table(filter_table(table, filter_tags), titles)
+
+
 
 
 if __name__ == '__main__':
