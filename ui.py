@@ -13,6 +13,14 @@ def get_col_width(table, titles):
 
 
 def make_border(column_widths, b_type):
+    """
+    Concatenates box-drawing lines for first/middle/last line.
+    Args:
+        - column_widths: list of numbers
+        - b_type: string "first", "middle" or "last"
+    Returns:
+        line: string
+    """
     b_chars = {"first": ("┌", "─", "┬", "┐"), "middle": ("├", "─", "┼", "┤"), "last": ("└", "─", "┴", "┘")}
     line = b_chars[b_type][0]
     for col_len in column_widths:
@@ -48,9 +56,18 @@ def print_table(table, titles):
     print(last_border)
 
 
+def ask_tags():
+    """
+    Asks the user for a list of tags. Returns them in a list.
+    """
+    answer = input("Milyen tagekre kessek? (többet vesszővel elválasztva adhatsz meg)")
+    result = answer.split(",")
+    return [x.strip() for x in result]
+
+
 def main():
-   pass
+    pass
 
-
+    
 if __name__ == '__main__':
     main()

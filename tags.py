@@ -23,8 +23,7 @@ def filter_table(table, filter_tags):
         - table: list of lists
         - filter_tags: list of strings
     """
-    result = list(filter(lambda x: set(filter_tags) - set(x[1].split(", ")) == set(), table))
-    return result
+    return list(filter(lambda x: set(filter_tags) - set(x[1].split(", ")) == set(), table))
 
 
 def main():
@@ -33,7 +32,6 @@ def main():
     nr_of_tags = count_tags_group_by_name(table)
     ui.print_table(nr_of_tags, ["tag", "#"])
     filter_tags = ui.ask_tags()
-    print(filter_table(table, filter_tags))
     ui.print_table(filter_table(table, filter_tags), titles)
 
 
