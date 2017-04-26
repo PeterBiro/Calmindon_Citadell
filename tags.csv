@@ -1,26 +1,51 @@
 ID;Tags
-0;könnyű, Jennifer Lawrence, analízis, Kepler-törvények, 7. osztály
-1;Euler-Fermat tétel, Jennifer Lawrence, 12. osztály, 2016
-2;szöveges feladat, 2017, Kepler-törvények
-3;elektromágnesség, Euler-féle poliédertétel
-4;mechanika, Euler-féle poliédertétel, 7. osztály, Euler-Fermat tétel
-5;lovagok és lókötők, elektromágnesség, húbaz+, Kepler III. tv, kinematika
-6;könnyű, fejtörő, Königsberg hídjai, 7. osztály, Pithagorasz-tétel
-7;húbaz+
-8;könnyű, Kepler-törvények, teszt, 8. osztály
-9;fejtörő, geometria, 9-10. osztály, 7. osztály, elektromágnesség, húbaz+
-10;nehéz, kinematika, Pithagorasz-tétel, mechanika
-11;nehéz, teszt, fizika, Kepler III. tv, Königsberg hídjai
-12;fejtörő, analízis
-13;hőtan, Euler-Fermat tétel
-14;húbaz+, geometria, kinematika, mechanika
-15;mechanika, 8. osztály, algebra, KöMaL, Euler-féle poliédertétel, analízis
-16;Kepler III. tv, 12. osztály, Newton-törvények, szöveges feladat
-17;fizika, Königsberg hídjai, húbaz+, Euler-egyenes, elektromágnesség, 9-10. osztály
-18;nehéz, 2017
-19;kinematika, Euler-féle poliédertétel, mechanika
-20;Euler-egyenes, Kepler III. tv, lovagok és lókötők
-21;matek, Newton-törvények
-22;Jennifer Lawrence, Euler-egyenes, algebra, 2016
-23;Jennifer Lawrence, matek
-24;8. osztály, optika
+0;lvl:10. oszt=könnyű
+1;lvl:8. oszt=nehéz, 9. oszt, 8. oszt, matek
+2;Königsberg hídjai
+3;optika, egyetem
+4;hőtan, Euler-tétel
+5;hőtan, algebra, 2016, Euler-tétel, Euler-Fermat tétel, analízis
+6;Kepler III. tv, lvl:8. oszt=könnyű, Königsberg hídjai, fizika
+7;analízis, Königsberg hídjai, egyetem, érettségi, lvl:8. oszt=könnyű
+8;lvl:9. oszt=könnyű, Königsberg hídjai, elektromágnesség, 2016, húbaz+, lvl:8. oszt=nehéz
+9;szöveges feladat, könnyű
+10;Jennifer Lawrence
+11;Euler-Fermat tétel, elektromágnesség, mechanika, könnyű, teszt, szöveges feladat
+12;algebra, teszt, 12. osztály
+13;nehéz, 8. oszt, geometria
+14;8. oszt, Königsberg hídjai, 10. oszt, Euler-féle poliédertétel, hőtan, Euler-egyenes
+15;analízis, 9. oszt, húbaz+, elektromágnesség, 12. osztály, 2016
+16;lovagok és lókötők, Jennifer Lawrence, kinematika, Euler-egyenes, lvl:9. oszt=nehéz
+17;fizika, 8. oszt, KöMaL, Euler-Fermat tétel, matek
+18;Euler-Fermat tétel, 2017, lvl:10. oszt=könnyű
+19;Newton-törvények, húbaz+, nehéz, 9. oszt, Kepler-törvények
+20;optika
+21;optika
+22;könnyű
+23;8. oszt, Kepler-törvények, húbaz+
+24;Kepler-törvények, Pithagorasz-tétel, elektromágnesség
+25;KöMaL, matek
+26;mechanika
+27;2016, 9. oszt
+28;Königsberg hídjai, nehéz, Euler-egyenes
+29;egyetem, Kepler III. tv, lvl:9. oszt=nehéz, fizika, teszt
+30;hőtan, 2017, Euler-Fermat tétel, érettségi, teszt
+31;9. oszt, analízis, teszt, lvl:9. oszt=könnyű
+32;geometria, fejtörő, analízis, Jennifer Lawrence, 8. oszt, Euler-Fermat tétel
+33;fejtörő, mechanika, Euler-egyenes, Jennifer Lawrence, Pithagorasz-tétel, 2017
+34;matek, Euler-tétel
+35;Königsberg hídjai, analízis, matek, Jennifer Lawrence, Kepler-törvények, 2016
+36;lvl:10. oszt=nehéz, analízis, húbaz+, szöveges feladat, 12. osztály, matek
+37;12. osztály, lvl:10. oszt=könnyű, lvl:9. oszt=könnyű, szöveges feladat, Jennifer Lawrence
+38;Euler-egyenes, Königsberg hídjai, Euler-tétel, matek, elektromágnesség
+39;Euler-Fermat tétel
+40;Königsberg hídjai, Kepler-törvények, 10. oszt, geometria
+41;matek, Euler-tétel
+42;kinematika, algebra, Euler-egyenes, matek
+43;9. oszt, lvl:8. oszt=nehéz, nehéz, geometria
+44;geometria, 7. oszt, teszt, elektromágnesség, lvl:10. oszt=nehéz
+45;Newton-törvények, lvl:10. oszt=könnyű, könnyű, Euler-egyenes
+46;kinematika, matek, lvl:9. oszt=nehéz, Euler-féle poliédertétel, 10. oszt, lvl:10. oszt=könnyű
+47;8. oszt, Kepler III. tv, könnyű, matek, lvl:9. oszt=könnyű, 2017
+48;7. oszt, hőtan, lovagok és lókötők, lvl:10. oszt=nehéz
+49;könnyű, lovagok és lókötők, algebra, lvl:8. oszt=könnyű

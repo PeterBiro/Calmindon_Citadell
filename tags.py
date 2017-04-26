@@ -13,6 +13,7 @@ def count_tags_group_by_name(table):
     nr_of_tags = [[key, str(value)] for key, value in dict_of_tags.items()]
     return nr_of_tags
 
+
 def get_triple_tags(list_of_tags):
     """
     Returns the triple tags from a list.
@@ -29,6 +30,20 @@ def filter_table(table, filter_tags):
         - filter_tags: list of strings
     """
     return list(filter(lambda x: set(filter_tags) - set(x[1].split(", ")) == set(), table))
+
+
+def make_simple_tags(table):
+    """
+    Splits the triplle tags in the table for two simple tags.
+    e.g.: "lvl:8.oszt=könnyű" --> "8.oszt", "könnyű"
+    Returns the table
+    """
+    for i, line in enumerate(table):
+        triple_tags = get_triple_tags(line[1].split(", "))
+        for tag in triple_tags:
+            line[1] += ", " + tag[4:tag.find("=")] + ", " + tag[tag.find("=")+1:]
+        table[i][1] = line[1]
+    return table
 
 
 def main():

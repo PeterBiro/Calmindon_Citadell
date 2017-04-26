@@ -5,11 +5,12 @@ def generate_random_table(rows):
     TAGS = {
             "matek", "fizika", "geometria", "algebra", "analízis", "szöveges feladat",
             "teszt", "2016", "2017", "érettségi", "könnyű", "nehéz", "húbaz+", "KöMaL",
-            "kinematika", "mechanika", "hőtan", "elektromágnesség", "optika", "7. osztály",
-            "8. osztály", "9-10. osztály", "12. osztály", "egyetem", "fejtörő", "Pithagorasz-tétel",
+            "kinematika", "mechanika", "hőtan", "elektromágnesség", "optika", "7. oszt",
+            "8. oszt", "9. oszt", "10. oszt", "12. osztály", "egyetem", "fejtörő", "Pithagorasz-tétel",
             "Euler-egyenes", "Euler-tétel", "Euler-féle poliédertétel", "Euler-Fermat tétel",
             "Königsberg hídjai", "lovagok és lókötők", "Newton-törvények", "Kepler-törvények",
-            "Kepler III. tv", "Jennifer Lawrence"
+            "Kepler III. tv", "Jennifer Lawrence", "lvl:9. oszt=könnyű", "lvl:10. oszt=könnyű",
+            "lvl:9. oszt=nehéz", "lvl:10. oszt=nehéz", "lvl:8. oszt=könnyű", "lvl:8. oszt=nehéz" 
             }
     table = []
     for i in range(rows):
@@ -36,7 +37,7 @@ def get_table_from_file(file_name):
 
 
 def main():
-    # table = generate_random_table(25)
+    # table = generate_random_table(50)
     # write_table_to_file("tags.csv", table, ["ID", "Tags"])
     pass
 
